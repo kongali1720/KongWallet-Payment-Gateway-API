@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🚀 KongWallet Payment Gateway API
+# 💳 KONGALI1720 Payment Gateway API 💳
 
 ### Secure • Fast • Multi-Payment • Merchant Ready
 
