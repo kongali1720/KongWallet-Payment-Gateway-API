@@ -14,7 +14,13 @@
 ### Secure • Fast • Multi-Payment • Merchant Ready
 
 <p align="center">
-<img src="https://raw.githubusercontent.com/kongali1720/KongWallet-Payment-Gateway-API/main/kongali-apigateway.png" width="100%">
+
+![Linux](https://img.shields.io/badge/Linux-Ubuntu-E95420?style=for-the-badge&logo=ubuntu)
+![REST API](https://img.shields.io/badge/REST-API-blue?style=for-the-badge)
+![HMAC](https://img.shields.io/badge/HMAC-SHA256-success?style=for-the-badge)
+![Webhook](https://img.shields.io/badge/Webhook-Supported-orange?style=for-the-badge)
+![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)
+
 </p>
 
 <p align="center">
@@ -28,16 +34,8 @@
 </p>
 
 <p align="center">
-
-![Linux](https://img.shields.io/badge/Linux-Ubuntu-E95420?style=for-the-badge&logo=ubuntu)
-![REST API](https://img.shields.io/badge/REST-API-blue?style=for-the-badge)
-![HMAC](https://img.shields.io/badge/HMAC-SHA256-success?style=for-the-badge)
-![Webhook](https://img.shields.io/badge/Webhook-Supported-orange?style=for-the-badge)
-![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)
-
+<img src="https://raw.githubusercontent.com/kongali1720/KongWallet-Payment-Gateway-API/main/kongali-apigateway.png" width="100%">
 </p>
-
----
 
 ### Modern Payment Gateway Backend for Crypto, Card, Bank Transfer & Fiat Payments
 
