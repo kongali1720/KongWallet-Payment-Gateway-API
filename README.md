@@ -5,9 +5,7 @@
 ### Secure • Fast • Multi-Payment • Merchant Ready
 
 <p align="center">
-
-<img src="dashboard/static/img/new-logo.png" width="140"/>
-
+<img src="https://raw.githubusercontent.com/kongali1720/KongWallet-Payment-Gateway-API/main/kongali-apigateway.png" width="100%">
 </p>
 
 <p align="center">
