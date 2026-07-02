@@ -492,7 +492,7 @@ MIT License
 
 <div align="center">
 
-Made with ❤️ by **KongWallet**
+Made with ❤️ by **KongALI1720**
 
 </div>
 
