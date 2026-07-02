@@ -392,29 +392,67 @@ title KongWallet Roadmap
 
 
 ---
-
 # 📊 Payment Flow
 
-```
-Merchant
-      │
-      ▼
-KongWallet API
-      │
-      ▼
-Payment Processing
-      │
-      ▼
-Verification
-      │
-      ▼
-Webhook
-      │
-      ▼
-Merchant Server
-```
+<p align="center">
+<img src="https://raw.githubusercontent.com/kongali1720/KongWallet-Payment-Gateway-API/main/kongali-apigateway.png" width="100%">
+</p>
 
 ---
+
+# 📊 Payment Processing Flow
+
+The following diagram illustrates the complete lifecycle of a payment transaction within the KongWallet Payment Gateway ecosystem. Every request passes through authentication, payment processing, verification, persistent storage, and webhook delivery before reaching the merchant application.
+
+```mermaid
+flowchart LR
+
+    A([🛒 Merchant]) -->|Create Payment| B[🌐 KongWallet API]
+
+    B --> C{🔐 Authentication}
+
+    C -->|Valid API Key| D[⚡ Rate Limiter]
+
+    C -->|Invalid| X([❌ Request Rejected])
+
+    D --> E[📦 Create Transaction]
+
+    E --> F{💳 Payment Method}
+
+    F --> G[₿ Crypto]
+
+    F --> H[💳 Card]
+
+    F --> I[🏦 SWIFT]
+
+    F --> J[💵 Fiat]
+
+    G --> K[⚙ Payment Processor]
+    H --> K
+    I --> K
+    J --> K
+
+    K --> L[🔍 Verification Engine]
+
+    L --> M[(🗄 PostgreSQL)]
+
+    M --> N[📡 Webhook Service]
+
+    N --> O([🖥 Merchant Server])
+
+    style A fill:#2ecc71,color:#fff
+    style B fill:#3498db,color:#fff
+    style C fill:#9b59b6,color:#fff
+    style D fill:#f39c12,color:#fff
+    style E fill:#16a085,color:#fff
+    style F fill:#34495e,color:#fff
+    style K fill:#e67e22,color:#fff
+    style L fill:#8e44ad,color:#fff
+    style M fill:#2c3e50,color:#fff
+    style N fill:#d35400,color:#fff
+    style O fill:#27ae60,color:#fff
+    style X fill:#c0392b,color:#fff
+```
 
 # 📄 License
 
@@ -425,5 +463,24 @@ MIT License
 <div align="center">
 
 Made with ❤️ by **KongWallet**
+
+</div>
+
+<div align="center">
+
+
+# ☕ Support Development
+
+
+Jika project ini membantu kamu,
+support kecil sangat berarti.
+
+
+<a href="https://www.paypal.com/paypalme/bungtempong99/">
+
+<img src="https://img.shields.io/badge/BUY_ME_A_COFFEE-support-yellow?style=for-the-badge&logo=buymeacoffee">
+
+</a>
+
 
 </div>
