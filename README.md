@@ -390,6 +390,31 @@ title KongWallet Roadmap
 : Kubernetes Support
 ````
 
+```mermaid
+timeline
+title KongWallet Development Roadmap
+
+2026 Q3
+: Core API
+: Merchant API
+: PostgreSQL
+: Redis
+
+2026 Q4
+: Stripe Integration
+: Crypto Wallet
+: Webhook Engine
+
+2027 Q1
+: Admin Dashboard
+: Analytics
+: Multi-chain
+
+2027 Q2
+: Multi Currency
+: Kubernetes
+: High Availability
+```
 
 ---
 # 📊 Payment Flow
