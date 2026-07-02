@@ -1,3 +1,12 @@
+
+<p align="center">
+<img src="https://github.com/kongali1720/KongWallet-Payment-Gateway-API/blob/main/kop_surat.jpg" width="100%">
+</p>
+
+<p align="center">
+
+---
+
 <div align="center">
 
 # 💳 KONGALI1720 Payment Gateway API 💳
