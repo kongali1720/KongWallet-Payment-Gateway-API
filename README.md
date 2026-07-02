@@ -421,11 +421,17 @@ title KongWallet Development Roadmap
 : High Availability
 ```
 
+## Apigateway.kongali1720.com
+
+<p align="center">
+<img src="https://raw.githubusercontent.com/kongali1720/KongWallet-Payment-Gateway-API/main/kongali-apigateway.png" width="100%">
+</p>
+
 ---
 # 📊 Payment Flow
 
 <p align="center">
-<img src="https://raw.githubusercontent.com/kongali1720/KongWallet-Payment-Gateway-API/main/kongali-apigateway.png" width="100%">
+<img src="https://github.com/kongali1720/KongWallet-Payment-Gateway-API/blob/main/apigateway-architect-diagram.png" width="100%">
 </p>
 
 ---
